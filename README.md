@@ -9,3 +9,10 @@ In this project, we utilized DBSCAN and K-means algorithms to analyze order addr
 - Enhanced customer satisfaction through timely service delivery.
 
 This project demonstrates our commitment to leveraging data analytics to drive strategic business decisions and expand our market presence effectively.
+
+### Comparison:
+- KMeans clustering without using DBSCAN to filter outliers
+![KMeans without DBSCAN](1.png)
+
+- KMeans clustering with DBSCAN to filter outliers
+![KMeans with DBSCAN](2.png)
