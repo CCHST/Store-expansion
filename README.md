@@ -16,3 +16,5 @@ This project demonstrates our commitment to leveraging data analytics to drive s
 
 - KMeans clustering with DBSCAN to filter outliers
 ![KMeans with DBSCAN](2.png)
+
+Since K-means clustering groups data based on distance, if there are some outlier boundary points, they will affect the position of the cluster center. Thus, we choose to filter outliers first by using DBSCAN, setting the filtering conditions as: a radius of 500 meters and a minimum of 50 orders within that radius.
